@@ -1,0 +1,86 @@
+.header {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: -1rem;
+}
+
+.grid {
+    width: 770px;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.grid div {
+    width: 75px;
+    height: 75px;
+}
+
+.grid div:first-child,
+.grid div:nth-child(2),
+.grid div:nth-child(3),
+.grid div:nth-child(4),
+.grid div:nth-child(5),
+.grid div:nth-child(6),
+.grid div:nth-child(7),
+.grid div:nth-child(8),
+.grid div:nth-child(9),
+.grid div:nth-child(10)
+ {
+    border-top: 1px solid black;
+}
+
+.grid div:first-child,
+.grid div:nth-child(11),
+.grid div:nth-child(21),
+.grid div:nth-child(31),
+.grid div:nth-child(41),
+.grid div:nth-child(51),
+.grid div:nth-child(61),
+.grid div:nth-child(71),
+.grid div:nth-child(81),
+.grid div:nth-child(91)
+ {
+    border-left: 1px solid black;
+}
+
+.grid div:nth-child(10),
+.grid div:nth-child(20),
+.grid div:nth-child(30),
+.grid div:nth-child(40),
+.grid div:nth-child(50),
+.grid div:nth-child(60),
+.grid div:nth-child(70),
+.grid div:nth-child(80),
+.grid div:nth-child(90),
+.grid div:nth-child(100)
+ {
+    border-right: 1px solid black;
+}
+
+.grid div:nth-child(91),
+.grid div:nth-child(92),
+.grid div:nth-child(93),
+.grid div:nth-child(94),
+.grid div:nth-child(95),
+.grid div:nth-child(96),
+.grid div:nth-child(97),
+.grid div:nth-child(98),
+.grid div:nth-child(99),
+.grid div:nth-child(100)
+ {
+    border-bottom: 1px solid black;
+}
+
+.snake {
+    width: 75px;
+    height: 75px;
+    background: blue;
+}
+
+.apple {
+    width: 75px;
+    height: 75px;
+    background: violet;
+}

@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas {
+    width: 1920;
+    height: 934;
+}
+
+img {
+    display: none;
+}

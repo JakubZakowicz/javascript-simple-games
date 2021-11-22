@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: radial-gradient(circle, rgba(238,0,0,1) 0%, rgba(0,0,0,1) 100%); 
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    margin-right: 160px;
+}
+
+.board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.solution .cell{
+    background: lightgrey;
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.cells {
+    display: grid;
+    grid-template-columns: repeat(5, 120px);
+    align-items: center;
+    justify-content: center;
+}
+
+.cell {
+    background: white;
+    width: 100px;
+    height: 50px;
+}
+
+.row-10 .cell {
+    cursor: pointer;
+}
+
+.playable-cells {
+    margin-top: 50px;
+}
+
+.playable-cells .cells {
+    margin-top: 20px;
+}
+
+.pegs {
+    display: grid;
+    grid-template-columns: repeat(2, 30px);
+    grid-row-gap: 10px;
+}
+
+.peg {
+    width: 20px;
+    height: 20px;
+    background: gray;
+    border-radius: 50%;
+}
+
+.finish {
+    grid-template-columns: repeat(4, 120px) 70px 70px;
+    padding-left: 20px;
+}
+
+.finish-btn {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.finish-btn:hover {
+    background: grey;
+}
+
+.interface {
+    margin-left: 100px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.interface .cells {
+    grid-template-columns: repeat(4, 120px);
+    grid-row-gap: 20px;
+}
+
+.interface button {
+    cursor: pointer;
+}
+
+.interface h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: rgb(5, 247, 5);
+}
+
+.blue {
+    background: blue;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.orange {
+    background: rgb(255, 102, 0);
+}
+
+.violet {
+    background: violet;
+}
+
+.cyan {
+    background: cyan;
+}
+
+.pink {
+    background: rgb(255, 0, 149);
+}
+
+.picked-color {
+    display: grid;
+    grid-template-columns: 180px 100px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.restart {
+    font-size: 2rem;
+    padding: 10px;
+    margin-top: 200px;
+}

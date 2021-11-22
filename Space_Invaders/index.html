@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders | Elon Musk Dedication</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        img {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <img id="alien" src="assets/alien.png" alt="">
+    <img id="bomb" src="assets/bomb.png" alt="">
+    <img id="explosion" src="assets/explosion.png" alt="">
+    <img id="player" src="assets/player.png" alt="">
+    <img id="shot" src="assets/shot.png" alt="">
+
+    <canvas id="gameScreen" width="1200" height="900"></canvas>
+
+    <script src="src/bomb.js"></script>
+    <script src="src/explosion.js"></script>
+    <script src="src/alien.js"></script>
+    <script src="src/shot.js"></script>
+    <script src="src/player.js"></script>
+    <script src="src/collision.js"></script>
+    <script src="src/keyHandler.js"></script>
+    <script src="src/game.js"></script>
+    <script src="src/app.js"></script>
+</body>
+</html>

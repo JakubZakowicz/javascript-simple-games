@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MasterMind</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>MasterMind</h1>
+            <div class="board">
+                <div>
+                    <div class="solution cells">
+                        <div data-solution-cell class="cell">?</div>
+                        <div data-solution-cell class="cell">?</div>
+                        <div data-solution-cell class="cell">?</div>
+                        <div data-solution-cell class="cell">?</div>
+                    </div>
+                    <div class="playable-cells">
+                        <div  class="row-1">
+                            <div data-row-1 class="cells">
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div class="pegs">
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="row-2 ">
+                            <div data-row-2 class="cells">
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="pegs">
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="row-3">
+                            <div data-row-3 class="cells">
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div  class="pegs">
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="row-4">
+                            <div data-row-4 class="cells">
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div class="pegs">
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="row-5">
+                            <div data-row-5 class="cells">
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div class="pegs">
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="row-6">
+                            <div data-row-6 class="cells">
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div class="pegs">
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="row-7">
+                            <div data-row-7 class="cells">
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div class="pegs">
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="row-8">
+                            <div data-row-8 class="cells">
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div class="pegs">
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="row-9">
+                            <div data-row-9 class="cells">
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div data-game-cell class="cell"></div>
+                                <div class="pegs">
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="row-10 ">
+                            <div data-row-10 class="cells finish">
+                                <div data-game-cell class="cell turn empty"></div>
+                                <div data-game-cell class="cell turn empty"></div>
+                                <div data-game-cell class="cell turn empty "></div>
+                                <div data-game-cell class="cell turn empty"></div>
+                                <div class="pegs">
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                    <div class="peg"></div>
+                                </div>
+                                <button id="finishButton" class="finish-btn">Finish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="interface">
+                    <h2>Pick the color:</h2>
+                    <div class="cells">
+                        <button data-picking-color class="red cell"></button>
+                        <button data-picking-color class="green cell"></button>
+                        <button data-picking-color class="blue cell"></button>
+                        <button data-picking-color class="yellow cell"></button>
+                        <button data-picking-color class="orange cell"></button>
+                        <button data-picking-color class="violet cell"></button>
+                        <button data-picking-color class="cyan cell"></button>
+                        <button data-picking-color class="pink cell"></button>
+                    </div>
+                    
+                    <div class="picked-color">
+                        <h2>Picked color: </h2>
+                        <div data-picked-color class="cell"></div>
+                    </div>
+                    <button id="restartButton" class="restart">Restart Game</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

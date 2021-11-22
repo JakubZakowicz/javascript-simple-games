@@ -1,0 +1,17 @@
+.heading {
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    width: 700px;
+    height: 600px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
